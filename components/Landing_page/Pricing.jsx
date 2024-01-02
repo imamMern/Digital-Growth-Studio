@@ -110,7 +110,7 @@ const Pricing = () => {
 
                   {/* Custom */}
                   {custom && (
-                    <div className="md:flex flex items-center md:mt-[60px] mt-[35px] md:gap-x-[10px] gap-x-[5px] relative md:w-auto w-full  ">
+                    <div className="md:flex-row flex-col flex items-center md:mt-[60px] mt-[35px] md:gap-x-[10px] md:gap-y-0 gap-y-[10px] relative md:w-auto w-full  ">
                       <input
                         value={userInput}
                         onChange={handleUserInput}
@@ -128,13 +128,13 @@ const Pricing = () => {
                       <div className="flex md:gap-x-[8px] gap-x-[0px]">
                       <button
                         onClick={handleEnter}
-                        className=" md:py-[16px] md:mr-0 mr-2 md:px-[16px] py-[11px] px-[12px] shadow-shade rounded-tl-[18px] rounded-br-[5px] bg-black text-white md:text-[18px] font-semibold text-[11px] md:leading-[14px] leading-[9px] select-none"
+                        className=" md:py-[16px] md:mr-0 mr-2 md:px-[16px] py-[12px] px-[20px] shadow-shade rounded-tl-[18px] rounded-br-[5px] bg-black text-white md:text-[18px] font-semibold text-[11px] md:leading-[14px] leading-[9px] select-none"
                       >
                         Enter
                       </button>
                       <button
                         onClick={handleCancel}
-                        className="md:px-[14px] md:py-[14px] px-[8px] py-[8px] bg-secondary rounded-corner shadow-shade md:text-[18px] text-[11px] leading-[9px] font-darker font-semibold text-black md:leading-[14px] text-center border-[2px] border-secondary hover:border-white duration-300 select-none"
+                        className="md:px-[14px] md:py-[14px] px-[20px] py-[8px] bg-secondary rounded-corner shadow-shade md:text-[18px] text-[11px] leading-[9px] font-darker font-semibold text-black md:leading-[14px] text-center border-[2px] border-secondary hover:border-white duration-300 select-none"
                       >
                         Cancel
                       </button>
