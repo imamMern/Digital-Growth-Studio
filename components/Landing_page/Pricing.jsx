@@ -110,7 +110,7 @@ const Pricing = () => {
 
                   {/* Custom */}
                   {custom && (
-                    <div className="md:flex-row flex-col flex items-center md:mt-[60px] mt-[20px] md:gap-x-[10px] md:gap-y-0 gap-y-[30px] relative md:w-auto w-full  ">
+                    <div className="md:flex-row flex-col flex items-center md:mt-[60px] mt-[20px] md:gap-x-[10px] md:gap-y-0 gap-y-[10px] relative md:w-auto w-full  ">
                       <input
                         value={userInput}
                         onChange={handleUserInput}
@@ -121,7 +121,7 @@ const Pricing = () => {
                         placeholder="Enter the number as per your requirement?"
                       />
                       {userInputNegative && (
-                        <p className="text-[#1B1C1E]  md:w-auto font-medium md:font-semibold absolute md:top-[45px] top-[38px] md:left-0 left-[60px] ">
+                        <p className="text-[#1B1C1E] md:block hidden md:w-auto font-medium md:font-semibold absolute md:top-[45px] top-[38px] md:left-0 left-[60px] ">
                           {userInputNegative}
                         </p>
                       )}
