@@ -53,7 +53,7 @@ const MySlider = () => {
     ],
   };
   return (
-    <div className="slider overflow-x-hidden md:overflow-x-visible ">
+    <div className="slider overflow-hidden md:overflow-visible ">
       <Slider {...settings}>
         {images.map((img, index) => (
           <div
